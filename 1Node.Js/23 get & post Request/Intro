@@ -1,0 +1,20 @@
+{Get & Post Request}
+
+(Get)
+
+> Used to GET some response
+> Data sent in Query string (limited, string data & visible in URL)
+
+
+(Post)
+
+> Used to POST something (for Create/ Write ? Update)
+> Datat sent via request body (any type of data)
+
+{Handling Post request}
+
+> Set up POST request route to get some response.
+> Pares POST request data.
+
+[app.use(express.urlenccoded({extended: true}))]
+[app.use(express.json()); ]

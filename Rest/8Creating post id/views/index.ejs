@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <div>
+        <% for(preson of presons){ %>
+            <h2>@<%= preson.username %></h2>
+            <h3><%= preson.contents %></h3>
+            <a href="http://localhost:4533/posts/<%= preson.id %>">Read about me</a>
+        <% } %>
+    </div>
+    <br><br>
+    <a href="http://localhost:4533/posts/new">Add persons</a>
+</body>
+</html>

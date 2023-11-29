@@ -1,0 +1,22 @@
+{Express}
+
+A Node.js web application framework that us to make web applications 
+It is used for server side programming.
+
+
+
+(use)
+
+1: Lister for incoming request
+2: paces
+3: match response with roots
+4: response   
+
+(Install)
+npm install express
+
+
+{Ports}
+these are the logical endpoints of a network connection that is used to exchange information between a web serever and a web client.
+
+{res.send}

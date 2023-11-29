@@ -1,0 +1,22 @@
+body {
+    background: rgb(222, 200,222);
+    text : white;
+    display: gred;
+button {
+    background : white;
+    text: black;
+    border: 2px solid black;
+}
+button:hover {
+    background: yellow;
+    text: red;
+    border-radious: 20%;
+}
+.footer{
+    background:green;
+    margien-top: 50px;
+    height: 30%;
+    mergine-top: 50px;
+    padding: 5px;
+    width:100%
+}

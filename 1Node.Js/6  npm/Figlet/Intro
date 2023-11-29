@@ -1,0 +1,5 @@
+Installing Packages
+
+node_modules :  The node_module folder contains every installed dependency for your project.
+
+package-lok.json : It record the exact version of every installed dependency. including its sub-dependencies and their versions.

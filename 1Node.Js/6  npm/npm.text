@@ -1,0 +1,30 @@
+
+NPM (Node Package Manager)
+
+npm is the standerd package manager for Node.js
+
+1: We are imagenry library of package.
+2: It is a command line tool.
+3: npm is the command line client
+
+
+{Installing Packages}
+
+npm install 
+
+
+
+{Installing Packages}
+
+node_modules :  The node_module folder contains every installed dependency for your project.
+
+package-lok.json : It record the exact version of every installed dependency. 
+including its sub-dependencies and their versions.
+
+
+{package.json}
+
+The package.json file contains descriptive and function metadata about 
+a project, such as a name version , and dependencies
+
+npm init 
